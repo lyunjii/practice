@@ -9,7 +9,10 @@
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
-  /><title>Attendence</title>
+  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <title>Attendence</title>
 </head>
 <body>
   <header></header>
@@ -24,7 +27,7 @@
         <button id="location">시험 위치 확인</button>
       </div>
     </section>
-    <div class="stdlist" style="overflow-x:hidden; overflow-y: scroll; height: 648px;">
+    <div class="stdlist" style="overflow-x:hidden; overflow-y: scroll;">
       <ol >
         <li class="student">
           <ul>
@@ -82,14 +85,16 @@
         </li>
       </ol>
     </div>
-    <section class="buttons">
-      <button>액티브 윈도우즈 모니터</button>
-      <button>선택 강퇴</button>
-    </section>
-    <section class="buttons">
-      <button>개인 메시지 전송</button>
-      <button>출석부 저장</button>
-    </section>
+    <div class="fixed-bottom">
+      <section class="buttons">
+        <button class="actwin">액티브 윈도우즈 모니터</button>
+        <button class="selkck">선택 강퇴</button>
+      </section>
+      <section class="buttons">
+        <button class="primsg">개인 메시지 전송</button>
+        <button class="attsav">출석부 저장</button>
+      </section>
+    </div>
   </aside>
 </body>
 </html>
