@@ -109,12 +109,13 @@ aside {
   color: #4535f3;
 }
 .buttons {
-  width: 248px;
+  width: 250px;
   height: 44px;
   padding: 10px 16px;
   background: #f4f5f6;
   display: flex;
   justify-content: space-between;
+  border: 1px solid #dadce0;
 }
 .buttons > button {
   height: 26px;
